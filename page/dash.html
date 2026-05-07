@@ -490,7 +490,7 @@
             "🤔 Check the status card for any ongoing platform issues or maintenance.",
             "💿 Thanks so much to Evicly for the powerful server!",
             "🎲 The dice will pick a completely random game from the entire library!",
-            "🐛 The Discord is the best place to report bugs and suggest games.",
+            "🐛 Report bugs and suggest games through support email.",
           ];
             const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
             document.getElementById('tip-of-the-day').textContent = tips[dayOfYear % tips.length];
@@ -498,7 +498,7 @@
 
         const quickActionsList = document.getElementById("quick-actions-list");
         function displayQuickActions() {
-            const actions = [ { name: 'Settings', icon: 'fa-solid fa-gear', url: '/page/options.html' }, { name: 'Our Discord', icon: 'fa-brands fa-discord', url: 'https://dsc.gg/thunderr', external: true }, { name: 'Partners', icon: 'fa-solid fa-handshake', url: '/page/partners.html' } ];
+            const actions = [ { name: 'Settings', icon: 'fa-solid fa-gear', url: '/page/options.html' } ];
             quickActionsList.innerHTML = '';
             actions.forEach(action => {
                 const button = document.createElement('button');
@@ -587,6 +587,5 @@
         initializeDashboard();
       });
     </script>
-    <script src="https://cdn.jsdelivr.net/gh/docklib/partners@master/partner-fb7ae694.js"></script>
-  </body>
+</body>
 </html>
