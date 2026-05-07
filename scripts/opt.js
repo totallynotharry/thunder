@@ -4,7 +4,7 @@
  */
 
 const cloakPresets = {
-  thunder: { title: "THUNDER v3", favicon: "/_a/logo.new.png" },
+  thunder: { title: "THUNDER", favicon: "/_a/img/thunder-cloud.svg" },
   google: { title: "Google", favicon: "https://www.google.com/favicon.ico" },
   gmail: {
     title: "Gmail",

@@ -413,7 +413,7 @@
         function createGameButton(game) {
             const button = document.createElement('button');
             button.className = 'game-button';
-            const coverSrc = game.cover ? game.cover.replace("{COVER_URL}", coverURL) : '/_a/logo.png';
+            const coverSrc = game.cover ? game.cover.replace("{COVER_URL}", coverURL) : '/_a/img/thunder-cloud.svg';
             button.innerHTML = `<img src="${coverSrc}" class="icon" alt=""><span class="game-name">${game.name}</span>`;
             button.onclick = () => {
                 let url = game.direct ? `/page/gameframe.html?url=${encodeURIComponent(game.url)}&name=${encodeURIComponent(game.name)}&direct=true` : `/page/gameframe.html?url=${encodeURIComponent(game.url.replace("{HTML_URL}", htmlURL))}&name=${encodeURIComponent(game.name)}`;
