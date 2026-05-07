@@ -10,14 +10,12 @@ const navItems = [
   { type: "divider" },
   { title: "Browser", icon: "fa-search", url: "/scram.html", type: "item" },
   { type: "divider" },
-  { title: "AI Chat <span class='badge'>New</span>", icon: "fa-robot", url: "page/app/ai.html", type: "item" },
+  { title: "AI", icon: "fa-robot", url: "page/app/ai.html", type: "item" },
   { title: "YouTube", icon: "fa-brands fa-youtube", url: "page/app/yt.html", type: "item" },
   { title: "Music", icon: "fa-music", url: "page/music.html", type: "item" },
 ];
 
 const extraNavItems = [
-    { title: "Discord", icon: "fa-brands fa-discord", url: "https://discord.gg/BHwm9rrK55", type: "item", direct: true },
-    { title: "Partners", icon: "fa-handshake", url: "page/partners.html", type: "item", selectable: true },
     { title: "Privacy", icon: "fa-lock", url: "usage.html", type: "item", selectable: true },
     { title: "Repo (frontend)", icon: "fa-brands fa-gitlab", url: "https://gitlab.com/technonyte00/thunder", type: "item", direct: true },
 ];
