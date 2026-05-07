@@ -1,36 +1,214 @@
 [
-  { "id": "drive-mad", "title": "Drive Mad", "thumbnail": "/games/thumbs/drive-mad.jpg", "file": "/games/files/drive-mad/index.html", "new": "false" },
-  { "id": "granny", "title": "Granny", "thumbnail": "/games/thumbs/90.png", "file": "/games/files/non-folder/granny.html", "new": "false" },
-  { "id": "geoguessr", "title": "GeoGuessr", "thumbnail": "/games/thumbs/geog.jpg", "url": "https://www.worldguessr.com/" },
-  { "id": "gta-vice-city", "title": "GTA Vice City", "thumbnail": "/games/thumbs/vicecity.jpg", "file": "/games/files/vicecity/index.html" },
-  { "id": "idle-breakout", "title": "Idle Breakout", "thumbnail": "/games/thumbs/idle-breakout.jpg", "file": "/games/files/idle-breakout/index.html" },
-  { "id": "level-devil", "title": "Level Devil", "thumbnail": "/games/thumbs/level-devil.jpg", "file": "/games/files/level-devil/index.html" },
-  { "id": "retro-bowl", "title": "Retro Bowl", "thumbnail": "/games/thumbs/retrobowl.jpg", "file": "/games/files/retrobowl/index.html" },
-  { "id": "retro-bowl-college", "title": "Retro Bowl College", "thumbnail": "/games/thumbs/retrobowlcollege.jpg", "file": "/games/files/retrobowlcollege/index.html" },
-  { "id": "slope", "title": "Slope", "thumbnail": "/games/thumbs/slope.jpg", "file": "/games/files/slope/index.html" },
-  { "id": "tanuki-sunset", "title": "Tanuki Sunset", "thumbnail": "/games/thumbs/tanuki-sunset.jpg", "file": "/games/files/tanuki-sunset/index.html" },
-  { "id": "space-wave", "title": "Space Wave", "thumbnail": "/games/thumbs/space-wave.jpg", "file": "/games/files/space-wave/index.html" },
-  { "id": "tunnel-rush", "title": "Tunnel Rush", "thumbnail": "/games/thumbs/tunnel-rush.jpg", "file": "/games/files/tunnel-rush/index.html" },
-  { "id": "monkey-mart", "title": "Monkey Mart", "thumbnail": "/games/thumbs/monkey-mart.jpg", "file": "/games/files/monkey-mart/index.html" },
-  { "id": "snow-rider", "title": "Snow Rider 3D", "thumbnail": "/games/thumbs/snow-rider.jpg", "file": "/games/files/snow-rider/index.html" },
-  { "id": "tag", "title": "TAG", "thumbnail": "/games/thumbs/tag.jpg", "file": "/games/files/tag/index.html" },
-  { "id": "polytrack", "title": "Polytrack", "thumbnail": "/games/thumbs/polytrack.jpg", "file": "/games/files/polytrack/index.html" },
-  { "id": "eggy-car", "title": "Eggy Car", "thumbnail": "/games/thumbs/eggy-car.jpg", "file": "/games/files/eggy-car/index.html" },
-  { "id": "geometry-dash", "title": "Geometry Dash", "thumbnail": "/games/thumbs/geometry-dash.jpg", "file": "/games/files/geometrydash/index.html" },
-  { "id": "cluster-rush", "title": "Cluster Rush", "thumbnail": "/games/thumbs/cluster-rush.jpg", "file": "/games/files/cluster-rush/index.html" },
-  { "id": "stacktris", "title": "Stacktris", "thumbnail": "/games/thumbs/stacktris.jpg", "file": "/games/files/stacktris/index.html" },
-  { "id": "drift-boss", "title": "Drift Boss", "thumbnail": "/games/thumbs/drift-boss.jpg", "file": "/games/files/drift-boss/index.html" },
-  { "id": "iron-lung", "title": "Iron Lung", "thumbnail": "/games/thumbs/iron-lung.jpg", "file": "/games/files/non-folder/iron-lung.html" },
-  { "id": "tomb-of-the-mask", "title": "Tomb of the Mask", "thumbnail": "/games/thumbs/totm.jpg", "file": "/games/files/non-folder/tomb_of_the_mask.html" },
-  { "id": "gun-spin", "title": "Gun Spin", "thumbnail": "/games/thumbs/gunspin.jpg", "file": "/games/files/non-folder/gun_spin.html" },
-  { "id": "crazy-cattle-3d", "title": "Crazy Cattle 3D", "thumbnail": "/games/thumbs/cc3d.png", "file": "/games/files/non-folder/crazy_cattle_3d.html" },
-  { "id": "bitlife", "title": "Bitlife", "thumbnail": "/games/thumbs/bitlife.jpg", "file": "/games/files/non-folder/bitlife.html" },
-  { "id": "hollow-knight", "title": "Hollow Knight", "thumbnail": "/games/thumbs/hollowknight.jpg", "file": "/games/files/non-folder/hollow-knight.html", "new": "true" },
-  { "id": "fnf", "title": "Friday Night Funkin'", "thumbnail": "/games/thumbs/fnf.png", "file": "/games/files/non-folder/fnf.html", "new": "true" },
-  { "id": "balatro", "title": "Balatro", "thumbnail": "/games/thumbs/balatro.jpg", "file": "/games/files/non-folder/balatro.html" },
-  { "id": "gladihoppers", "title": "Gladihoppers", "thumbnail": "/games/thumbs/gladihoppers.jpg", "file": "/games/files/non-folder/gladdihoppers.html" },
-  { "id": "ultrakill", "title": "ULTRAKILL", "thumbnail": "/games/thumbs/ultrakill.jpg", "file": "/games/files/ultrakill/index.html", "new": "true" },
-  { "id": "minecraft", "title": "Minecraft", "thumbnail": "/games/thumbs/minecraft.png", "file": "/games/files/non-folder/wasm-gc%201.20.html", "new": "true" },
-  { "id": "roblox", "title": "Roblox", "thumbnail": "/games/thumbs/IMG_0376.png", "file": "https://nowgg.fun/apps/a/19900/b.html", "new": "true" },
-  { "id": "tomodachi-collection", "title": "Tomodachi Collection", "thumbnail": "/games/thumbs/tomodachi-collection.webp", "file": "/games/files/non-folder/tomodachi-collection.html", "new": "true" }
+  {
+    "id": "drive-mad",
+    "title": "Drive Mad",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/drive-mad.jpg",
+    "file": "https://lightningweb.github.io/games/files/drive-mad/index.html",
+    "new": "false"
+  },
+  {
+    "id": "granny",
+    "title": "Granny",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/90.png",
+    "file": "https://lightningweb.github.io/games/files/non-folder/granny.html",
+    "new": "false"
+  },
+  {
+    "id": "geoguessr",
+    "title": "GeoGuessr",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/geog.jpg",
+    "url": "https://www.worldguessr.com/"
+  },
+  {
+    "id": "gta-vice-city",
+    "title": "GTA Vice City",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/vicecity.jpg",
+    "file": "https://lightningweb.github.io/games/files/vicecity/index.html"
+  },
+  {
+    "id": "idle-breakout",
+    "title": "Idle Breakout",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/idle-breakout.jpg",
+    "file": "https://lightningweb.github.io/games/files/idle-breakout/index.html"
+  },
+  {
+    "id": "level-devil",
+    "title": "Level Devil",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/level-devil.jpg",
+    "file": "https://lightningweb.github.io/games/files/level-devil/index.html"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/retrobowl.jpg",
+    "file": "https://lightningweb.github.io/games/files/retrobowl/index.html"
+  },
+  {
+    "id": "retro-bowl-college",
+    "title": "Retro Bowl College",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/retrobowlcollege.jpg",
+    "file": "https://lightningweb.github.io/games/files/retrobowlcollege/index.html"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/slope.jpg",
+    "file": "https://lightningweb.github.io/games/files/slope/index.html"
+  },
+  {
+    "id": "tanuki-sunset",
+    "title": "Tanuki Sunset",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/tanuki-sunset.jpg",
+    "file": "https://lightningweb.github.io/games/files/tanuki-sunset/index.html"
+  },
+  {
+    "id": "space-wave",
+    "title": "Space Wave",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/space-wave.jpg",
+    "file": "https://lightningweb.github.io/games/files/space-wave/index.html"
+  },
+  {
+    "id": "tunnel-rush",
+    "title": "Tunnel Rush",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/tunnel-rush.jpg",
+    "file": "https://lightningweb.github.io/games/files/tunnel-rush/index.html"
+  },
+  {
+    "id": "monkey-mart",
+    "title": "Monkey Mart",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/monkey-mart.jpg",
+    "file": "https://lightningweb.github.io/games/files/monkey-mart/index.html"
+  },
+  {
+    "id": "snow-rider",
+    "title": "Snow Rider 3D",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/snow-rider.jpg",
+    "file": "https://lightningweb.github.io/games/files/snow-rider/index.html"
+  },
+  {
+    "id": "tag",
+    "title": "TAG",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/tag.jpg",
+    "file": "https://lightningweb.github.io/games/files/tag/index.html"
+  },
+  {
+    "id": "polytrack",
+    "title": "Polytrack",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/polytrack.jpg",
+    "file": "https://lightningweb.github.io/games/files/polytrack/index.html"
+  },
+  {
+    "id": "eggy-car",
+    "title": "Eggy Car",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/eggy-car.jpg",
+    "file": "https://lightningweb.github.io/games/files/eggy-car/index.html"
+  },
+  {
+    "id": "geometry-dash",
+    "title": "Geometry Dash",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/geometry-dash.jpg",
+    "file": "https://lightningweb.github.io/games/files/geometrydash/index.html"
+  },
+  {
+    "id": "cluster-rush",
+    "title": "Cluster Rush",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/cluster-rush.jpg",
+    "file": "https://lightningweb.github.io/games/files/cluster-rush/index.html"
+  },
+  {
+    "id": "stacktris",
+    "title": "Stacktris",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/stacktris.jpg",
+    "file": "https://lightningweb.github.io/games/files/stacktris/index.html"
+  },
+  {
+    "id": "drift-boss",
+    "title": "Drift Boss",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/drift-boss.jpg",
+    "file": "https://lightningweb.github.io/games/files/drift-boss/index.html"
+  },
+  {
+    "id": "iron-lung",
+    "title": "Iron Lung",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/iron-lung.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/iron-lung.html"
+  },
+  {
+    "id": "tomb-of-the-mask",
+    "title": "Tomb of the Mask",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/totm.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/tomb_of_the_mask.html"
+  },
+  {
+    "id": "gun-spin",
+    "title": "Gun Spin",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/gunspin.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/gun_spin.html"
+  },
+  {
+    "id": "crazy-cattle-3d",
+    "title": "Crazy Cattle 3D",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/cc3d.png",
+    "file": "https://lightningweb.github.io/games/files/non-folder/crazy_cattle_3d.html"
+  },
+  {
+    "id": "bitlife",
+    "title": "Bitlife",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/bitlife.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/bitlife.html"
+  },
+  {
+    "id": "hollow-knight",
+    "title": "Hollow Knight",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/hollowknight.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/hollow-knight.html",
+    "new": "true"
+  },
+  {
+    "id": "fnf",
+    "title": "Friday Night Funkin'",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/fnf.png",
+    "file": "https://lightningweb.github.io/games/files/non-folder/fnf.html",
+    "new": "true"
+  },
+  {
+    "id": "balatro",
+    "title": "Balatro",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/balatro.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/balatro.html"
+  },
+  {
+    "id": "gladihoppers",
+    "title": "Gladihoppers",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/gladihoppers.jpg",
+    "file": "https://lightningweb.github.io/games/files/non-folder/gladdihoppers.html"
+  },
+  {
+    "id": "ultrakill",
+    "title": "ULTRAKILL",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/ultrakill.jpg",
+    "file": "https://lightningweb.github.io/games/files/ultrakill/index.html",
+    "new": "true"
+  },
+  {
+    "id": "minecraft",
+    "title": "Minecraft",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/minecraft.png",
+    "file": "https://lightningweb.github.io/games/files/non-folder/wasm-gc%201.20.html",
+    "new": "true"
+  },
+  {
+    "id": "roblox",
+    "title": "Roblox",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/IMG_0376.png",
+    "file": "https://nowgg.fun/apps/a/19900/b.html",
+    "new": "true"
+  },
+  {
+    "id": "tomodachi-collection",
+    "title": "Tomodachi Collection",
+    "thumbnail": "https://lightningweb.github.io/games/thumbs/tomodachi-collection.webp",
+    "file": "https://lightningweb.github.io/games/files/non-folder/tomodachi-collection.html",
+    "new": "true"
+  }
 ]

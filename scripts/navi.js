@@ -17,7 +17,7 @@ const navItems = [
 
 const extraNavItems = [
     { title: "Privacy", icon: "fa-lock", url: "usage.html", type: "item", selectable: true },
-    { title: "Repo (frontend)", icon: "fa-brands fa-gitlab", url: "https://gitlab.com/technonyte00/thunder", type: "item", direct: true },
+    { title: "Repo (frontend)", icon: "fa-brands fa-gitlab", url: "https://github.com/totallynotharry/thunder", type: "item", direct: true },
 ];
 
 var navData = {};
