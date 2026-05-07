@@ -8,9 +8,7 @@ const navItems = [
   { title: "Dashboard", icon: "fa-table-columns", type: "item", url: "/page/dash.html" },
   { title: "Games", icon: "fa-gamepad", type: "item", nest: "games" },
   { type: "divider" },
-  { title: "Browser", icon: "fa-search", url: "/scram.html", type: "item" },
-  { type: "divider" },
-  { title: "AI", icon: "fa-robot", url: "page/app/ai.html", type: "item" },
+    { title: "AI", icon: "fa-robot", url: "page/app/ai.html", type: "item" },
   { title: "YouTube", icon: "fa-brands fa-youtube", url: "page/app/yt.html", type: "item" },
   { title: "Music", icon: "fa-music", url: "page/music.html", type: "item" },
 ];
