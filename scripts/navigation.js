@@ -67,10 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function precacheZones() {
     try {
-      const response = await fetch('/_a/zones.json');
+      const response = await fetch('/_a/games.json');
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       const zones = await response.json();
-      allZonesCache = zones.map(zone => ({...zone, source: 'zones'}));
+      allZonesCache = zones.map(zone => ({ name: zone.name || zone.title, url: zone.url || zone.file, source: 'zones', direct: true }));
       console.log(`successflly precaches ${allZonesCache.length} zones.`);
     } catch (error) {
       console.error("failed to precache zones:", error);
@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 window.open(game.url.startsWith('http') ? game.url : game.url.replace("{HTML_URL}", htmlURL), '_blank');
                 return;
             }
-            targetFrameUrl = `/api/resonance/rvvASMiM/${game.Md5}/?gd_sdk_referrer_url=yjgames.gamedistribution.com`;
+            targetFrameUrl = game.url.startsWith("http") ? game.url : game.url.replace("{HTML_URL}", htmlURL);
         }
     
         frame.src = targetFrameUrl;
