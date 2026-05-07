@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VAPOR Chat v2</title>
+  <title>THUNDER Chat v2</title>
   <script src="/chat/socket.io/socket.io.js"></script>
   <link rel="stylesheet" href="/_a/fa/css/all.min.css" />
   <script src="/scripts/theme.js"></script>
@@ -598,13 +598,13 @@
           <div class="rules-container">
             <div class="rules">
               <h3>What is this?</h3>
-              <p>This is the new VAPOR Chat. Cleaner UI, username protection, and DMing capabilities. This chat is also
+              <p>This is the new THUNDER Chat. Cleaner UI, username protection, and DMing capabilities. This chat is also
                 more secure than our old one.<br><br>Never worry about your username being stolen. All users have a
                 password attached to them. Need it reset? Send proof of you owning it, and DM @_technonyte on
-                discord.<br><br>Request new features in the discord! Enjoy!</p>
+                community channels.<br><br>Request new features and enjoy!</p>
             </div>
           </div>
-          <h1>VAPOR Chat</h1>
+          <h1>THUNDER Chat</h1>
         </div>
 
         <div class="input-section">
@@ -713,7 +713,7 @@
 
     function loadCreds() {
       try {
-        const saved = localStorage.getItem("vapor_credentials");
+        const saved = localStorage.getItem("thunder_credentials");
         if (saved) {
           savedCredentials = JSON.parse(saved);
           usernameInput.value = savedCredentials.username;
@@ -727,7 +727,7 @@
     function saveCreds(username, password) {
       try {
         localStorage.setItem(
-          "vapor_credentials",
+          "thunder_credentials",
           JSON.stringify({
             username: username,
             password: password,

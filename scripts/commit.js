@@ -1,9 +1,9 @@
-// this is the oldest file of all of vapor!
+// this is the oldest file of all of thunder!
 // i developed this file when building VERSION TWO (v2) :P
 
 // removed feature though.
 
-const projectPath = "technonyte00/vapor";
+const projectPath = "technonyte00/thunder";
 const glApi = `https://gitlab.com/api/v4/projects/${encodeURIComponent(
   projectPath
 )}/repository/commits`;

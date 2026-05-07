@@ -1,7 +1,7 @@
 /************************
  * swium dev
  * (literally first dev realize, most of the features arent here)
- * | by VAPOR/created by s16dih
+ * | by THUNDER/created by s16dih
  ***********************/
 
 /*
@@ -31,7 +31,7 @@ when ur done doing it you have to base64d it before putting it there this is for
 /************************
  * swium dev
  * (literally first dev realize, most of the features arent here)
- * | by VAPOR/created by s16dih
+ * | by THUNDER/created by s16dih
  ***********************/
 
 if (navigator.userAgent.includes("Firefox")) {
@@ -110,7 +110,7 @@ const CONFIG = {
 		"*/partnerads/*",
 	],
 	inject: {
-		html: "\x3c!-- pr0x1ed by vapor's static sj --\x3e",
+		html: "\x3c!-- pr0x1ed by thunder's static sj --\x3e",
 	},
 };
 
