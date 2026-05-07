@@ -74,7 +74,7 @@ function initializeTheme() {
 }
 
 function loadSavedTheme() {
-    const activeTheme = localStorage.getItem("theme") || "vapor";
+    const activeTheme = localStorage.getItem("theme") || "thunder";
     const customThemeJson = localStorage.getItem("customTheme");
     const customSettingsJson = localStorage.getItem("customThemeSettings");
 
@@ -93,7 +93,7 @@ function loadSavedTheme() {
             window.dispatchEvent(new Event("themeLoaded"));
         } catch (e) {
             console.error("failed to parse custom theme!!!", e);
-            loadPresetTheme("vapor");
+            loadPresetTheme("thunder");
             applyCustomFont('Default');
         }
     } else {
