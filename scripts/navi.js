@@ -9,7 +9,7 @@ const navItems = [
   { title: "Games", icon: "fa-gamepad", type: "item", nest: "games" },
   { title: "Playline", icon: "fa-trophy", type: "item", nest: "playline" },
   { type: "divider" },
-  { title: "Chat", icon: "fa-comments-alt", url: "https://vtx.chat.cdn.cloudflare.net/embed/vapor", type: "item" },
+  { title: "Chat", icon: "fa-comments-alt", url: "https://vtx.chat.cdn.cloudflare.net/embed/thunder", type: "item" },
   { title: "??? <span class='badge'>Coming Soon</span>", icon: "fa-desktop", url: "page/vm-priv.html", type: "item" },
   { title: "Browser", icon: "fa-search", url: "/scram.html", type: "item" },
   { type: "divider" },
@@ -22,7 +22,7 @@ const extraNavItems = [
     { title: "Discord", icon: "fa-brands fa-discord", url: "https://discord.gg/BHwm9rrK55", type: "item", direct: true },
     { title: "Partners", icon: "fa-handshake", url: "page/partners.html", type: "item", selectable: true },
     { title: "Privacy", icon: "fa-lock", url: "usage.html", type: "item", selectable: true },
-    { title: "Repo (frontend)", icon: "fa-brands fa-gitlab", url: "https://gitlab.com/technonyte00/vapor", type: "item", direct: true },
+    { title: "Repo (frontend)", icon: "fa-brands fa-gitlab", url: "https://gitlab.com/technonyte00/thunder", type: "item", direct: true },
 ];
 
 var navData = {};

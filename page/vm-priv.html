@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VAPOR VMv2</title>
+    <title>THUNDER VMv2</title>
     <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
     <link href="/styles/defaults.css" rel="stylesheet" />
     <script src="/scripts/theme.js"></script>
@@ -612,7 +612,7 @@
       <div id="main-view">
         <div id="start-screen">
           <div id="start-screen-content">
-            <h2><i class="fas fa-bolt"></i>VAPOR VMs</h2>
+            <h2><i class="fas fa-bolt"></i>THUNDER VMs</h2>
             <p>
               Your private, high-speed browser is just a click away. Launch a
               secure, disposable VM for any task, anywhere.
@@ -757,13 +757,13 @@
     </div>
 
     <script type="module">
-      import Hyperbeam from "https://vapor.my/v0/vm/index.js";
+      import Hyperbeam from "https://thunder.my/v0/vm/index.js";
 
       document.addEventListener("DOMContentLoaded", () => {
-        let clientId = localStorage.getItem("vapor_client_id");
+        let clientId = localStorage.getItem("thunder_client_id");
         if (!clientId) {
           clientId = crypto.randomUUID();
-          localStorage.setItem("vapor_client_id", clientId);
+          localStorage.setItem("thunder_client_id", clientId);
         }
 
         // ==========================================================
@@ -1073,13 +1073,13 @@
         const loadData = () => {
           try {
             bookmarks = JSON.parse(
-              localStorage.getItem("vapor_bookmarks") || "[]"
+              localStorage.getItem("thunder_bookmarks") || "[]"
             );
           } catch (e) {
             bookmarks = [];
           }
           try {
-            groups = JSON.parse(localStorage.getItem("vapor_groups") || "[]");
+            groups = JSON.parse(localStorage.getItem("thunder_groups") || "[]");
           } catch (e) {
             groups = [];
           }
@@ -1087,11 +1087,11 @@
         };
 
         const saveBookmarks = () => {
-          localStorage.setItem("vapor_bookmarks", JSON.stringify(bookmarks));
+          localStorage.setItem("thunder_bookmarks", JSON.stringify(bookmarks));
           renderData();
         };
         const saveGroups = () => {
-          localStorage.setItem("vapor_groups", JSON.stringify(groups));
+          localStorage.setItem("thunder_groups", JSON.stringify(groups));
           renderData();
         };
 

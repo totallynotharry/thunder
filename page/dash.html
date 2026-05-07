@@ -390,10 +390,10 @@
             }, { once: true });
         }
         
-        if (window.parent && window.parent.vaporsock) {
-            currentUserCount = window.parent.vaporsock.onlineusers;
+        if (window.parent && window.parent.thundersock) {
+            currentUserCount = window.parent.thundersock.onlineusers;
             userCountElement.textContent = currentUserCount;
-            window.parent.addEventListener('vaporsock:update', (event) => {
+            window.parent.addEventListener('thundersock:update', (event) => {
                 handleUserCountUpdate(event.detail.onlineUsers);
             });
         } else {
@@ -448,7 +448,7 @@
             recentGameInfo.forEach(game => recentlyPlayedList.appendChild(createGameButton(game)));
         }
         
-        function getVAPORsAge() {
+        function getTHUNDERsAge() {
             const startDate = new Date('2025-02-14');
             const now = new Date();
             if (now < startDate) return "not yet born!";
@@ -485,8 +485,8 @@
           const tips = [
             "🤍 Your favorite games are saved locally to your browser.",
             "🔄 CTRL+SHIFT+ALT+R can refresh the gamelist.",
-            "💭 Did you know: VAPOR used to run on a potato! (500MB of RAM)",
-            `⏳ VAPOR is currently ${getVAPORsAge()}`,
+            "💭 Did you know: THUNDER used to run on a potato! (500MB of RAM)",
+            `⏳ THUNDER is currently ${getTHUNDERsAge()}`,
             "🤔 Check the status card for any ongoing platform issues or maintenance.",
             "💿 Thanks so much to Evicly for the powerful server!",
             "🎲 The dice will pick a completely random game from the entire library!",
@@ -498,7 +498,7 @@
 
         const quickActionsList = document.getElementById("quick-actions-list");
         function displayQuickActions() {
-            const actions = [ { name: 'Settings', icon: 'fa-solid fa-gear', url: '/page/options.html' }, { name: 'Our Discord', icon: 'fa-brands fa-discord', url: 'https://dsc.gg/vaporr', external: true }, { name: 'Partners', icon: 'fa-solid fa-handshake', url: '/page/partners.html' } ];
+            const actions = [ { name: 'Settings', icon: 'fa-solid fa-gear', url: '/page/options.html' }, { name: 'Our Discord', icon: 'fa-brands fa-discord', url: 'https://dsc.gg/thunderr', external: true }, { name: 'Partners', icon: 'fa-solid fa-handshake', url: '/page/partners.html' } ];
             quickActionsList.innerHTML = '';
             actions.forEach(action => {
                 const button = document.createElement('button');
