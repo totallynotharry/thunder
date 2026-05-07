@@ -397,8 +397,8 @@
         }
       }
 
-      .theme-vapor { background-color: #0F111A; color: #d5dce8; border-color: #7d93ba; }
-      .theme-vapor p { color: #9ca3af; }
+      .theme-thunder { background-color: #0F111A; color: #d5dce8; border-color: #7d93ba; }
+      .theme-thunder p { color: #9ca3af; }
       .theme-light { background-color: #d5dce8; color: #444f60; border-color: #444f60; }
       .theme-light p { color: #444f60; }
       .theme-amoled { background-color: #000000; color: #d5dce8; border-color: #0a111d; }
@@ -621,7 +621,7 @@
     <div class="container">
       <div class="sidebar">
         <div class="menu-item active" data-target="about">
-          <i class="fa-regular fa-info-circle"></i> About VAPOR
+          <i class="fa-regular fa-info-circle"></i> About THUNDER
         </div>
         <div class="menu-item" data-target="prx">
           <i class="fa-regular fa-ghost"></i> Prøxy
@@ -637,7 +637,7 @@
 
       <div class="content about active">
         <div class="card">
-          <h1 class="fancy">About VAPOR</h1>
+          <h1 class="fancy">About THUNDER</h1>
           <p>
             Your #1 destination for unbl0ck1ng<br /><br /><br />technonyte0 -
             Owner + Founder<br />Evicly - Co-Owner<br />m3rcury.w0rksh0p/tn -
@@ -702,8 +702,8 @@
         <div class="card">
           <h2>about:blank (AB) Cloaking</h2>
           <p>
-            Immediately open a "fake" browser tab with VAPOR in it. This causes
-            VAPOR to not be shown in your history, and is practically
+            Immediately open a "fake" browser tab with THUNDER in it. This causes
+            THUNDER to not be shown in your history, and is practically
             undetectable. Make sure you allow popups in your browser!<br />
           </p>
           <div class="toggle-container">
@@ -728,8 +728,8 @@
           <div class="input-container">
             <label for="tabCloakPreset">Site:</label>
             <div class="input-row">
-              <select id="tabCloakPreset" value="vapor">
-                <option value="vapor" selected>VAPOR (Default)</option>
+              <select id="tabCloakPreset" value="thunder">
+                <option value="thunder" selected>THUNDER (Default)</option>
                 <option disabled>━━> Google Services</option>
                 <option value="google">Google</option>
                 <option value="gmail">Gmail</option>
@@ -759,7 +759,7 @@
         </div>
         <div class="card">
           <h2>Close Prevention</h2>
-          <p>Prevent filters from closing VAPOR's tab.</p>
+          <p>Prevent filters from closing THUNDER's tab.</p>
           <div class="toggle-container">
             <span>Enable Close Prevention</span>
             <div class="toggle" id="closePreventToggle">
@@ -772,7 +772,7 @@
       <div class="content customize">
         <div class="card">
           <h1 class="fancy">Customization Settings</h1>
-          <p>Make VAPOR yours with personalization options.</p>
+          <p>Make THUNDER yours with personalization options.</p>
         </div>
         <div class="card">
           <h2>Theme</h2>
@@ -913,7 +913,7 @@
             applyFont(themeData.settings.font);
         }
         function initializeTheme() {
-            const themeValue = localStorage.getItem("theme") || "vapor";
+            const themeValue = localStorage.getItem("theme") || "thunder";
             let themeData;
             if (localStorage.getItem("livePreviewTheme")) {
                 themeData = JSON.parse(localStorage.getItem("livePreviewTheme"));
@@ -938,14 +938,14 @@
         }
         initializeTheme();
 
-        const themes = [ { name: "VAPOR (Default)", desc: "The default VAPOR theme you know and love.", class: "theme-vapor", value: "vapor" }, { name: "VAPOR Light", desc: "Light mode for the weirdos out there.", class: "theme-light", value: "light" }, { name: "VAPOR Amoled", desc: "A true amoled theme for VAPOR.", class: "theme-amoled", value: "amoled" }, { name: "Midnight", desc: "Deep blues and purples for night owls.", class: "theme-midnight", value: "midnight" }, { name: "Catppuccin Mocha", desc: "The original dark, cozy, and vibrant flavor.", class: "theme-catppuccin-mocha", value: "cat-mocha" }, { name: "Ember", desc: "Warm ember glow with deep reds and oranges.", class: "theme-ember", value: "ember" }, { name: "Lunar", desc: "Cool grays and a soft glow, like moonlight.", class: "theme-lunar", value: "lunar" }, { name: "Forest", desc: "A calming forest-inspired theme with green tones.", class: "theme-forest", value: "forest" }, { name: "Marine", desc: "A cool and focused deep-sea blue theme.", class: "theme-marine", value: "marine" }, { name: "Violet", desc: "A sleek purple theme with elegant vibes.", class: "theme-violet", value: "violet" }, { name: "Sunset", desc: "Warm colors inspired by a sunset.", class: "theme-sunset", value: "sunset" }, { name: "Crimson", desc: "Deep dark reds with a bold punch.", class: "theme-crimson", value: "crimson" }, { name: "Royal", desc: "A luxurious theme of deep indigo and gold.", class: "theme-royal", value: "royal" }, { name: "Ocean", desc: "Cool tones inspired by the ocean.", class: "theme-ocean", value: "ocean" }, { name: "Jade", desc: "A calm and sophisticated green-based theme.", class: "theme-jade", value: "jade" }, { name: "Grayscale", desc: "A minimalist grayscale theme.", class: "theme-grayscale", value: "grayscale" }, { name: "Slate", desc: "Smooth slate grays with soft blue highlights.", class: "theme-slate", value: "slate" }, { name: "Matrix", desc: "A green and black terminal theme inspired by the Matrix.", class: "theme-matrix", value: "matrix" }, { name: "Custom Theme", desc: "Create your own personalized theme.", class: "theme-custom", value: "custom" } ];
+        const themes = [ { name: "THUNDER (Default)", desc: "The default THUNDER theme you know and love.", class: "theme-thunder", value: "thunder" }, { name: "THUNDER Light", desc: "Light mode for the weirdos out there.", class: "theme-light", value: "light" }, { name: "THUNDER Amoled", desc: "A true amoled theme for THUNDER.", class: "theme-amoled", value: "amoled" }, { name: "Midnight", desc: "Deep blues and purples for night owls.", class: "theme-midnight", value: "midnight" }, { name: "Catppuccin Mocha", desc: "The original dark, cozy, and vibrant flavor.", class: "theme-catppuccin-mocha", value: "cat-mocha" }, { name: "Ember", desc: "Warm ember glow with deep reds and oranges.", class: "theme-ember", value: "ember" }, { name: "Lunar", desc: "Cool grays and a soft glow, like moonlight.", class: "theme-lunar", value: "lunar" }, { name: "Forest", desc: "A calming forest-inspired theme with green tones.", class: "theme-forest", value: "forest" }, { name: "Marine", desc: "A cool and focused deep-sea blue theme.", class: "theme-marine", value: "marine" }, { name: "Violet", desc: "A sleek purple theme with elegant vibes.", class: "theme-violet", value: "violet" }, { name: "Sunset", desc: "Warm colors inspired by a sunset.", class: "theme-sunset", value: "sunset" }, { name: "Crimson", desc: "Deep dark reds with a bold punch.", class: "theme-crimson", value: "crimson" }, { name: "Royal", desc: "A luxurious theme of deep indigo and gold.", class: "theme-royal", value: "royal" }, { name: "Ocean", desc: "Cool tones inspired by the ocean.", class: "theme-ocean", value: "ocean" }, { name: "Jade", desc: "A calm and sophisticated green-based theme.", class: "theme-jade", value: "jade" }, { name: "Grayscale", desc: "A minimalist grayscale theme.", class: "theme-grayscale", value: "grayscale" }, { name: "Slate", desc: "Smooth slate grays with soft blue highlights.", class: "theme-slate", value: "slate" }, { name: "Matrix", desc: "A green and black terminal theme inspired by the Matrix.", class: "theme-matrix", value: "matrix" }, { name: "Custom Theme", desc: "Create your own personalized theme.", class: "theme-custom", value: "custom" } ];
         let themeHTML = "";
         themes.forEach((theme) => { themeHTML += `<div class="theme ${theme.class || ""}" onclick="window.setTheme('${theme.value || ""}')"><h2>${theme.name}</h2><p>${theme.desc}</p></div>`; });
         themeSelect.innerHTML = themeHTML;
-        function updateCurrentThemeDisplay() { const themeValue = localStorage.getItem("theme") || "vapor"; let themeData; if (themeValue === "custom") { themeData = { name: "Custom Theme", desc: "Your personalized theme is active.", class: "theme-custom", }; } else { themeData = themes.find((t) => t.value === themeValue) || themes[0]; } currentThemeDiv.className = "current-theme"; if(themeData.class) { currentThemeDiv.classList.add(themeData.class.split(' ')[0]); } document.getElementById("currentThemeData").innerHTML = `<h2>${themeData.name}</h2><p>${themeData.desc}</p>`; }
+        function updateCurrentThemeDisplay() { const themeValue = localStorage.getItem("theme") || "thunder"; let themeData; if (themeValue === "custom") { themeData = { name: "Custom Theme", desc: "Your personalized theme is active.", class: "theme-custom", }; } else { themeData = themes.find((t) => t.value === themeValue) || themes[0]; } currentThemeDiv.className = "current-theme"; if(themeData.class) { currentThemeDiv.classList.add(themeData.class.split(' ')[0]); } document.getElementById("currentThemeData").innerHTML = `<h2>${themeData.name}</h2><p>${themeData.desc}</p>`; }
         function toggleThemeEditor() { const isOpen = themeSelect.style.height === "250px"; if (isOpen) { themeSelect.style.height = "0px"; themeSelect.style.opacity = 0; editThemeIcon.classList.remove("fa-xmark"); editThemeIcon.classList.add("fa-pencil"); } else { themeSelect.style.opacity = 1; themeSelect.style.height = "250px"; themeSelect.style.padding = "10px"; themeSelect.style.marginTop = "10px"; editThemeIcon.classList.remove("fa-pencil"); editThemeIcon.classList.add("fa-xmark"); } }
         editThemeBtn.addEventListener("click", toggleThemeEditor);
-        function openCustomThemeModal() { originalThemeState = { theme: localStorage.getItem("theme") || "vapor", customTheme: localStorage.getItem("customTheme"), customSettings: localStorage.getItem("customThemeSettings"), }; loadCustomThemeSettingsIntoModal(); customThemeOverlay.classList.add("active"); customThemeModal.classList.add("active"); }
+        function openCustomThemeModal() { originalThemeState = { theme: localStorage.getItem("theme") || "thunder", customTheme: localStorage.getItem("customTheme"), customSettings: localStorage.getItem("customThemeSettings"), }; loadCustomThemeSettingsIntoModal(); customThemeOverlay.classList.add("active"); customThemeModal.classList.add("active"); }
         function closeCustomThemeModal(revert = false) { localStorage.removeItem("livePreviewTheme"); if (revert) { if (originalThemeState.theme === "custom") { localStorage.setItem("theme", "custom"); localStorage.setItem( "customTheme", originalThemeState.customTheme ); localStorage.setItem( "customThemeSettings", originalThemeState.customSettings ); } else { localStorage.setItem("theme", originalThemeState.theme); localStorage.removeItem("customTheme"); localStorage.removeItem("customThemeSettings"); } } initializeTheme(); customThemeOverlay.classList.remove("active"); customThemeModal.classList.remove("active"); }
         function loadCustomThemeSettingsIntoModal() { const savedSettings = JSON.parse(localStorage.getItem("customThemeSettings")); if (!savedSettings) { manualPrimaryColorInput.value = "#7c3aed"; manualBgColorInput.value = "#1a0b2e"; selectedFont = "Inter"; } else { manualPrimaryColorInput.value = savedSettings.primary; manualBgColorInput.value = savedSettings.background; selectedFont = savedSettings.font || "Inter"; } fontSearchInput.value = selectedFont; }
         function livePreviewTheme() { const generatedTheme = generateManualTheme(manualPrimaryColorInput.value, manualBgColorInput.value); const liveData = { colors: generatedTheme, settings: { font: selectedFont } }; localStorage.setItem("livePreviewTheme", JSON.stringify(liveData)); initializeTheme(); }
@@ -1032,7 +1032,7 @@
           alert("ABCloak URL saved as " + cloakUrl);
         });
 
-        const savedTabCloak = localStorage.getItem("tabCloak") || "vapor";
+        const savedTabCloak = localStorage.getItem("tabCloak") || "thunder";
         tabCloakPreset.value = savedTabCloak;
 
         tabCloakPreset.addEventListener("change", () => {
